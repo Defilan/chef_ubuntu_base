@@ -2,7 +2,7 @@
 # Cookbook Name:: ubuntu_base
 # Recipe:: default
 #
-# Copyright (c) 2016 Chris Maher, All Rights Reserved.
+# Copyright (c) 2016 Christopher Maher, All Rights Reserved.
 
 cron_d 'auto_updates' do
   minute  '0'
