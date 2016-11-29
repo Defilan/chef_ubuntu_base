@@ -12,7 +12,7 @@
 # config.json file and it will continue working as usual.
 
 [local_phases]
-unit = "rspec spec/"
+unit = "chef exec rspec spec/"
 lint = "cookstyle"
 # Foodcritic includes rules only appropriate for community cookbooks
 # uploaded to Supermarket. We turn off any rules tagged "supermarket"

@@ -1,10 +1,11 @@
 name 'ubuntu_base'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
-license 'all_rights'
+maintainer 'Christopher Maher'
+maintainer_email 'defilan@gmail.com'
+license 'MIT License'
 description 'Installs/Configures ubuntu_base'
 long_description 'Installs/Configures ubuntu_base'
 version '0.1.0'
+depends 'cron', '~> 3.0.0'
 
 # If you upload to Supermarket you should set this so your cookbook
 # gets a `View Issues` link
