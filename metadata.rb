@@ -4,8 +4,9 @@ maintainer_email 'defilan@gmail.com'
 license 'MIT License'
 description 'Installs/Configures ubuntu_base'
 long_description 'Installs/Configures ubuntu_base'
-version '0.1.0'
+version '0.1.1'
 depends 'cron', '~> 3.0.0'
+depends 'chef-client', '~> 7.0.0'
 
 # If you upload to Supermarket you should set this so your cookbook
 # gets a `View Issues` link

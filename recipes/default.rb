@@ -4,6 +4,7 @@
 #
 # Copyright (c) 2016 Christopher Maher, All Rights Reserved.
 
+include_recipe 'chef-client'
 cron_d 'auto_updates' do
   minute  '0'
   hour    '0'
